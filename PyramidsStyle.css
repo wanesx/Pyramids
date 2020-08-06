@@ -1,0 +1,101 @@
+#header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+#logo {
+  color: coral;
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-left: 48px;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+  padding-right: 30px;
+}
+.nav__links {
+  color: aliceblue;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  padding: 0px 3px;
+  display: inline-block;
+  margin: 0;
+  font-size: 10px-;
+  margin-right: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+}
+.nav__links:hover {
+  color: coral;
+}
+#signUpButton {
+  margin-top: auto;
+  font-size: 24px;
+  padding: 5px 5px;
+  width: 70px;
+  height: auto;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+}
+#signUpButton:hover {
+  color: coral;
+}
+#Pyramid-img {
+  width: 100%;
+  height: 400px;
+  margin: 0px;
+}
+body {
+  background-color: white;
+}
+#Main_heading {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  font-size: 58px;
+  text-transform: uppercase;
+  color: black;
+}
+.sub_headers {
+  text-align: center;
+  background-color: black;
+  font-family: "BenchNine", sans-serif;
+  color: rgb(255, 68, 0);
+  font-size: 48px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+p {
+  color: rgb(97, 37, 3);
+  text-align: left;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.2;
+}
+.in_img1 {
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.in_img2 {
+  float: right;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#footer {
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
